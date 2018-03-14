@@ -15,7 +15,7 @@ public class HomeController {
 
     @RequestMapping("/")
     public String index(Model model){
-        // First let's create an actor
+        
         Actor actor = new Actor();
         actor.setName("Sandra Bullock");
         actor.setRealname("Sandra Mae Bullowski");
